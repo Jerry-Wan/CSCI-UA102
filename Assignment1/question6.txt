@@ -1,0 +1,4 @@
+Because in the definition of the big Oh notation that you ignore additive and multiplicative constants.
+Therefore, when the numebr is smaller than 100, for the most of time, we need to count the impact of the constants and at this time probably the O(nlogn) will come with a larger constant that will increase the time it needs to complete the program.
+As the input size grows, there will always be a certain k where an O(nlogn) algorithm starts to outperform an O(n^2) algorithm. 
+This is because the constants C1 and C2 always stay the same but nlog n and n^2 are growing and growing, albeit n^2 much faster than nlogn. For every n>k the O(nlogn) will be faster
